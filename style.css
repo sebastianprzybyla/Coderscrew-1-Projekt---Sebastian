@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #262626;
+    font-size:20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.container {
+    width:100%;
+    height:100%;
+    display:flex;
+    position:fixed;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    background:url("background.png") no-repeat center center fixed;
+    background-size:cover;
+    -webkid-background-size:cover;
+    -moz-bacground-size:cover;
+    -o-background-size: cover;
+}
+
+.name {
+    height:100px;
+
+}
+
+.webdesigner {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    width:150px;
+    height:50px;
+    font-weight:600;
+    margin-bottom:25px;
+    border-radius:10%;
+}
+
+.socialmedia {
+    width: 200px;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.fab {
+    font-size:35px;
+    color: #262626;
+
+}
+
+.instagram {
+    display:flex;
+    justify-content:center;
+    width:50px;
+    height:50px;
+    border: 2px solid #262626;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.github {
+     display:flex;
+     justify-content:center;
+     width:50px;
+     height:50px;
+     border: 2px solid #262626;
+     border-radius: 100%;
+     align-items: center;
+}
+
+.facebook {
+     display:flex;
+     justify-content:center;
+     width:50px;
+     height:50px;
+     border: 2px solid #262626;
+     border-radius: 100%;
+     align-items: center;
+}
+
+a:link , a:visited , a:active {
+    text-decoration:none;
+    color:black;
+}
+
+a:hover {
+    opacity:0.6;
+}
+
+
+.portfolio:hover , .facebook:hover , .github:hover , .instagram:hover {
+    background-color:white;
+}
+
+.facebook:hover > .fa-facebook-f {
+    color: #3b5998;
+}
+
+.github:hover > .fa-github {
+    color: #000000;
+}
+
+.instagram:hover > .fa-instagram {
+    color: red;
+}
